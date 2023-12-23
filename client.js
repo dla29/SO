@@ -562,7 +562,7 @@ player.Ui.Hint.Value = player + " перезапуск";
 
 var banTrigger = AreaPlayerTriggerService.Get("banTrigger");
 
-banTrigger.Tags = ["ban"];
+banTrigger.Tags = ["banTrigger"];
 
 banTrigger.Enable = true;
 

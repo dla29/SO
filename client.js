@@ -941,9 +941,3 @@ Inventory.Main.Value = true;
   }
 
 });
-
-var Fly = ["30F3C9BCD29BEDAC", "8B72090B9BFF6464", "30F3C9BCD29BEDAC", "30F3C9BCD29BEDAC", "30F3C9BCD29BEDAC"]
-
-player.Build.FlyEnable.Value = true;
-
-});

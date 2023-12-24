@@ -944,5 +944,7 @@ Inventory.Main.Value = true;
 var Fly = ["8B72090B9BFF6464", "30F3C9BCD29BEDAC", "30F3C9BCD29BEDAC", "30F3C9BCD29BEDAC", "30F3C9BCD29BEDAC"]
 
 player.Build.FlyEnable.Value = true;
+player.Ui.Hint.Value = player + " здравствуй модератор!";
+
 
 });

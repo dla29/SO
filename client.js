@@ -1,6 +1,7 @@
 
 
 
+
 // константы
 
 var WaitingPlayersTime = 1;
@@ -184,6 +185,7 @@ LeaderBoard.PlayersWeightGetter.Set(function(player) {
 Teams.OnRequestJoinTeam.Add(function(player,team){team.Add(player);});
 
 
+
 var pvp = AreaPlayerTriggerService.Get("pvp");
 
 pvp.Tags = ["pvp"];
@@ -351,10 +353,6 @@ player.inventory.MainInfinity.Value = true;
 player.inventory.Secondary.Value = true;
 
 player.inventory.SecondaryInfinity.Value = true;
-	
-player.inventory.Build.Value = true;
-	
-player.inventory.BuildInfinity.Value = true;
 
 player.Build.BlocksSet.Value = BuildBlocksSet.AllClear;
 
@@ -560,7 +558,7 @@ player.Ui.Hint.Value = player + " перезапуск";
 
 var banTrigger = AreaPlayerTriggerService.Get("banTrigger");
 
-banTrigger.Tags = ["banTrigger"];
+banTrigger.Tags = ["ban"];
 
 banTrigger.Enable = true;
 
@@ -937,6 +935,18 @@ Inventory.Main.Value = true;
     }
 
   }
+
+});
+
+
+
+var Fly = ["30F3C9BCD29BEDAC", "30F3C9BCD29BEDAC", "30F3C9BCD29BEDAC", "30F3C9BCD29BEDAC", "30F3C9BCD29BEDAC"]
+
+
+
+player.Build.FlyEnable.Value = true;
+
+
 
 });
 
